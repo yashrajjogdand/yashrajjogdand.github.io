@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yashraj Jogdand | Data Analyst and Data Science Portfolio</title>
+<meta name="description" content="Yashraj Jogdand is a Computer Science graduate from Pune, India, building a career in data analysis and data science with Python, pandas, NumPy and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f6f4;--ink:#14233a;--muted:#4f5f77;--line:#cfd9d6;--card:#fff;--mark:#ffc93c;--link:#0b5cad;--grid:rgba(20,35,58,.07);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a2b;--ink:#e8eef7;--muted:#a3b4cb;--line:#27374f;--card:#16253b;--mark:#e0a91c;--link:#7db8f5;--grid:rgba(232,238,247,.06)}}
+:root[data-theme="dark"]{--bg:#0f1a2b;--ink:#e8eef7;--muted:#a3b4cb;--line:#27374f;--card:#16253b;--mark:#e0a91c;--link:#7db8f5;--grid:rgba(232,238,247,.06)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "IBM Plex Sans",system-ui,sans-serif;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px}
+a{color:var(--link)}
+a:focus-visible{outline:3px solid var(--mark);outline-offset:3px}
+.wrap{max-width:940px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;font-weight:500;flex-wrap:wrap}
+nav .brand{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:20px;color:var(--ink);text-decoration:none}
+nav .links{display:flex;gap:20px;flex-wrap:wrap}
+nav .links a{color:var(--ink);text-decoration:none}
+nav .links a:hover{text-decoration:underline;text-decoration-color:var(--mark);text-decoration-thickness:3px}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
+.hero{padding:44px 0 56px}
+.hero h1{font-weight:800;font-size:clamp(42px,9vw,88px);letter-spacing:-.03em}
+.hero .role{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:500;font-size:clamp(20px,3.3vw,30px);margin:14px 0 0}
+.hero .lead{max-width:36em;margin:18px 0 0;color:var(--muted);font-size:19px}
+mark{background:linear-gradient(transparent 58%,var(--mark) 58%);color:inherit}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:11px 20px;border-radius:6px;border:2px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:500}
+.btn.fill{background:var(--ink);color:var(--bg)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px 28px;margin:40px 0 0;padding:20px 0 0;border-top:1px solid var(--line)}
+.facts dt{font-size:14px;color:var(--muted);margin:0}
+.facts dd{margin:2px 0 0;font-weight:500}
+section{padding:44px 0;border-top:1px solid var(--line)}
+section h2{font-size:clamp(26px,4.4vw,36px);margin-bottom:20px}
+.summary p{max-width:40em;margin:0 0 14px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px 28px}
+.skills h3{font-size:19px;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.chips li{font-size:15px;padding:3px 11px;border:1px solid var(--line);border-radius:99px;background:var(--card)}
+.projects{display:grid;gap:18px}
+.proj{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px}
+.proj h3{font-size:23px;margin-bottom:8px}
+.proj p{margin:0 0 10px;color:var(--muted)}
+.proj ul.did{margin:0 0 14px;padding-left:20px}
+.proj ul.did li{margin:3px 0}
+.proj .plinks{margin-top:14px;font-weight:500}
+.item{display:grid;grid-template-columns:170px 1fr;gap:6px 24px;padding:14px 0;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:0}
+.item .when{color:var(--muted);font-size:15px}
+.item h3{font-size:19px}
+.item p{margin:4px 0 0;color:var(--muted)}
+.contact ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px 28px;font-weight:500}
+footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+@media (max-width:620px){.item{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main">
+    <a class="brand" href="#top">Yashraj Jogdand</a>
+    <div class="links"><a href="#summary">Summary</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+  </nav>
+
+  <header class="hero" id="top">
+    <h1>Yashraj Jogdand</h1>
+    <p class="role">Data Analyst and Data Science Graduate</p>
+    <p class="lead">I clean, explore and model data in Python, and turn it into <mark>findings people can act on</mark>. Open to data analyst, data science and machine learning internships and entry-level roles.</p>
+    <div class="cta">
+      <a class="btn fill" href="#projects">View my projects</a>
+      <a class="btn" href="https://github.com/yashrajjogdand" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+    </div>
+    <dl class="facts">
+      <div><dt>Based in</dt><dd>Pune, Maharashtra, India</dd></div>
+      <div><dt>Education</dt><dd>B.Sc Computer Science, 2026</dd></div>
+      <div><dt>Focus</dt><dd>Data analysis, EDA, machine learning</dd></div>
+    </dl>
+  </header>
+
+  <section id="summary" class="summary">
+    <h2>Professional summary</h2>
+    <p>Computer Science graduate (B.Sc, 2026) from Pune, India, building a career in data analysis and data science. I work in Python with pandas, NumPy and Matplotlib to clean messy datasets, run exploratory analysis, and present clear results. I have also built a classification model using logistic regression.</p>
+    <p>I come from a software background, with internships in Android development and Spring Boot microservices. That gives me solid programming habits and an understanding of how data products are built and shipped. I’m now focused on applying those skills to real data problems.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><h3>Data analysis</h3><ul class="chips"><li>Python</li><li>pandas</li><li>NumPy</li><li>Data cleaning</li><li>Exploratory data analysis</li></ul></div>
+      <div><h3>Visualisation and reporting</h3><ul class="chips"><li>Matplotlib</li><li>Power BI</li><li>Excel</li></ul></div>
+      <div><h3>Databases and machine learning</h3><ul class="chips"><li>SQL</li><li>Logistic regression</li><li>Google Colab</li></ul></div>
+      <div><h3>Software foundation</h3><ul class="chips"><li>Java</li><li>Spring Boot</li><li>Android development</li><li>Git and GitHub</li></ul></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <article class="proj">
+        <h3>Netflix Movie Data Analysis</h3>
+        <p>Exploratory analysis of Netflix title data to understand what the catalogue contains.</p>
+        <ul class="did">
+          <li>Cleaned the dataset and checked every column for null values</li>
+          <li>Converted date columns into proper date types</li>
+          <li>Grouped ratings into categories for easier comparison</li>
+          <li>Explored patterns and presented them with charts</li>
+        </ul>
+        <ul class="chips"><li>Python</li><li>pandas</li><li>NumPy</li><li>Matplotlib</li></ul>
+        <!-- Add your link here when the project is on GitHub:
+        <div class="plinks"><a href="YOUR-LINK" target="_blank" rel="noopener noreferrer">View code</a></div> -->
+      </article>
+      <article class="proj">
+        <h3>Rock vs Mine Sonar Prediction</h3>
+        <p>A machine learning classifier that predicts whether a sonar signal came from a rock or a mine.</p>
+        <ul class="did">
+          <li>Trained and evaluated a logistic regression model</li>
+          <li>Built and ran the full workflow in a Google Colab notebook</li>
+          <li>Published the code and notebook on GitHub</li>
+        </ul>
+        <ul class="chips"><li>Python</li><li>Logistic regression</li><li>Google Colab</li></ul>
+        <div class="plinks"><a href="https://github.com/yashrajjogdand/-Machine-Learning-Project-Rock-vs-Mine-Prediction-" target="_blank" rel="noopener noreferrer">View code on GitHub</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="item"><div class="when">Feb 2026 to Mar 2026</div><div><h3>Spring Boot and Microservices Intern</h3><p>Veracity IT Solution. Internship in backend development with Spring Boot and microservices.</p></div></div>
+    <div class="item"><div class="when">Jun 2025 to Dec 2025</div><div><h3>Android App Development Intern</h3><p>Ihaan Technologies. Six-month internship in Android mobile app development.</p></div></div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="item"><div class="when">Completed Mar 2026</div><div><h3>B.Sc Computer Science</h3></div></div>
+    <div class="item"><div class="when">Diploma</div><div><h3>Full Stack Web Development</h3><p>Disha Computers, Beed. Grade A+ (88%).</p></div></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>I’m looking for data analyst, data science and machine learning opportunities. Let’s connect.</p>
+    <ul>
+      <li><a href="https://github.com/yashrajjogdand" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <!-- Add your own below, then remove the comment marks:
+      <li><a href="mailto:YOUR-EMAIL">YOUR-EMAIL</a></li>
+      <li><a href="YOUR-LINKEDIN-URL" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="YOUR-RESUME-PDF-LINK" target="_blank" rel="noopener noreferrer">Resume</a></li> -->
+    </ul>
+  </section>
+
+  <footer>© 2026 Yashraj Jogdand</footer>
+</div>
+</body>
+</html>
